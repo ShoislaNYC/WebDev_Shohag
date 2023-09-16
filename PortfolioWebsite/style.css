@@ -59,6 +59,7 @@ Article{
     padding: 20px;
     border: 14px;
 }
+
 Article .container{
     align-items: center;
 }
@@ -99,6 +100,26 @@ Article #span1{
 #footer img{
     width: 50px;
 }
+
+/*About Me*/
+#AboutMe head{
+    padding: 200px;
+}
+#AboutMe{ 
+    text-align: center;
+    padding: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 30px;
+    border: 14px solid beige;
+    background-color: beige;
+    border-style: hidden;
+    margin: 40px 0;
+    
+}
+
 
 /*LINKS */
 a:link {
