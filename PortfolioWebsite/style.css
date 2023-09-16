@@ -6,7 +6,7 @@
 .container{
     display: flex;
 }
-.name{
+.item{
     flex-grow: 1;
 }
 .nav-list{
@@ -46,12 +46,44 @@ footer{
     text-align: center;
     font-size: large;
 }
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.selfPhoto{
     width: 30%;
-  }
+    margin: auto;
+    padding: 20px;
+    border: 14px;
+    border-radius: 500px;
+}
+Article{
+    margin-right: auto;
+    margin-left: 2rem;
+    padding: 20px;
+    border: 14px;
+}
+Article .container{
+    align-items: center;
+}
+Article .item{
+    align-self: center;
+}
+
+Article p{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+Article span{
+    color: brown;
+}
+Article #span1{
+    color: blue;
+    font-size: 3rem;
+}
+
+#Intro p{
+    text-align: center;
+}
+
 .green-box {  
     background-color: green;  
     position: relative;  
