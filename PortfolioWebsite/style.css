@@ -32,4 +32,11 @@ header{
     src: url(sansation_bold.woff);
     font-weight: bold;
 }
+img{
+    width: 500px;
+    }
+#footer img{
+    background: black;
+    width: 50px;
+}
     
