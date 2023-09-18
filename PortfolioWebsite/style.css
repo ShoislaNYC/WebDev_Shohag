@@ -18,8 +18,8 @@
     font-weight: bold;
     text-align: left;  
     padding: 20px;
-    border: 14px solid beige;
-    background-color: beige;
+    border: 14px solid #C3B1E1;
+    background-color: #C3B1E1;
     border-style: hidden;
     margin: 20px 0;
 }
@@ -35,9 +35,9 @@ header{
     font-weight: bold;
     text-align: left;  
     padding: 20px;
-    border: 14px solid beige;
+    border: 14px solid #C3B1E1;
     border-style: hidden;
-    background-color: beige;
+    background-color: #C3B1E1;
     margin: 20px 0;
 }
 footer{
@@ -45,13 +45,16 @@ footer{
     margin: 5px;
     text-align: center;
     font-size: large;
+    border: 14px solid #C3B1E1;
+    background-color: #C3B1E1;
+    border-style: hidden;
 }
 .selfPhoto{
-    width: 30%;
-    margin: auto;
+    width: 32%;
+    margin-left: 10%;
     padding: 20px;
     border: 14px;
-    border-radius: 500px;
+    border-radius: 200px;
 }
 Article{
     margin-right: auto;
